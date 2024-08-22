@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'poppins', sans-serif; */
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f2f5;
+	margin: 0;
+}
+.outer {
+	display: flex;
+	background-color: white;
+	border-radius: 10px;
+	width: 650px;
+	padding: 10px;
+}
+.profile {
+	display: flex;
+	padding: 20px;
+}
+
+.material-symbols-outlined:hover{
+ background: gray;
+ color: blue;
+}
+/* img{
+	border: #081f5c 2px solid;
+} */
+.image {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.info {
+	padding: 20px;
+	width: 400px;
+}
+.name {
+	margin: 0;
+	font-size: 24px;
+	font-weight: bold;
+}
+.bio {
+	margin: 0;
+	color: gray;
+}
+.profile_data {
+	display: flex;
+	gap: 10px;
+}
+.data {
+	text-align: center;
+}
+.number {
+	font-size: 18px;
+	font-weight: bold;
+}
+.field {
+	color: grey;
+}
+.contact {
+	display: flex;
+	flex-direction: row;
+	align-items: right;
+	padding: 20x;
+	gap: 10px;
+}
+
+/* .material-symbols-outlined{
+
+} */
+
+.call,.message {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+.imgcont {
+	height: 25px;
+	width: 25px;
+}
